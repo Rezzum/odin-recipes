@@ -1,1 +1,2 @@
 # odin-recipes
+This project is a simple recipe HTML website. It consists of a single index page with links to a few recipes. CSS and JS are not used in this project. I will demonstrate my current level of knowledge of HTML. By the end of it I hope to have learned a few new details about HTML as I am already familiar with it.
