@@ -1,0 +1,31 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.wrap {
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.wrap-fade ~ * {
+    transition: opacity 100ms linear 50ms
+}
+
+.wrap-fade:hover ~ * {
+    opacity: 0.4;
+}
+
+.wrap-fade ~ *:hover {
+    opacity: 1;
+    transition-delay: 0ms;
+}
