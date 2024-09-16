@@ -1,5 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0;
+}
+
 body {
     font-family: "Roboto", sans-serif;
+    margin: 0px 200px 0px 200px;
+    text-align: center;
+
 }
 
 h1 {
@@ -21,6 +32,10 @@ h2 {
     transition: opacity 100ms linear 50ms
 }
 
+.wrap-fade:hover {
+    scale: 1.05;
+}
+
 .wrap-fade:hover ~ * {
     opacity: 0.4;
 }
@@ -28,4 +43,46 @@ h2 {
 .wrap-fade ~ *:hover {
     opacity: 1;
     transition-delay: 0ms;
+}
+
+.main-div {
+    background-color: grey;
+}
+
+div > h1, div > h2 {
+    text-decoration: underline;
+    margin: 0;
+    background-color: aquamarine;
+}
+
+div.h2 {
+
+}
+
+.img {
+    display: block;
+    margin: auto;
+}
+
+ul, ol {
+    display: inline-block;
+    text-align: start;
+}
+
+.subdiv-block {
+    border: 2px solid papayawhip;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: palegoldenrod;
+}
+
+.subdiv-flex {
+    display: inline-flex;
+}
+
+.subsubdiv {
+    border: 2px solid papayawhip;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: forestgreen;
 }
